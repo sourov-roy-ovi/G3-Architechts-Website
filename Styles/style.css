@@ -148,6 +148,9 @@ main>section {
     .banner-title {
         padding-top: 100px;
     }
+    .banner {
+        width: 90%;
+    }
 }
 
 
@@ -207,6 +210,18 @@ main>section {
     }
     .team-images {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .features-list {
+        width: 90%;
+    }
+}
+
+
+/* Responsive Media Query for tablet or medium device */
+
+@media screen and (min-width:576px) and (max-width:990px) {
+    .team-features-container {
+        flex-direction: column;
     }
     .features-list {
         width: 90%;
