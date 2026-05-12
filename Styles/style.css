@@ -110,9 +110,10 @@
 }
 
 
-/* Responsive Meadia Queary */
+/* Responsive Media Queary for Mobile */
 
 @media screen and (max-width:576px) {
+    /* Header section */
     .navbar,
     .nav-links {
         flex-direction: column;
@@ -120,6 +121,22 @@
     .nav-links {
         margin-top: 20px;
         gap: 10px;
+    }
+    .banner-title {
+        padding-top: 100px;
+    }
+}
+
+
+/* Responsive Media Query for tablet or medium device */
+
+@media screen and (min-width:576px) and (max-width:990px) {
+    /* Header Section */
+    .navbar {
+        flex-direction: column;
+    }
+    .nav-links {
+        margin-top: 20px;
     }
     .banner-title {
         padding-top: 100px;
