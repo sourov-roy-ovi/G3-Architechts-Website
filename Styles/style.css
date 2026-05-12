@@ -32,6 +32,10 @@
     border-radius: 8px;
 }
 
+main>section {
+    margin-top: 130px;
+}
+
 
 /* share color */
 
@@ -141,4 +145,52 @@
     .banner-title {
         padding-top: 100px;
     }
+}
+
+
+/* Team-features styles */
+
+.team-features {
+    margin-top: 85px;
+}
+
+.team-features-container {
+    gap: 73px;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.team-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.features-list {
+    align-items: center;
+}
+
+.feature-title {
+    font-size: 2.8rem;
+    max-width: 464px;
+}
+
+#quick-list {
+    font-weight: 500;
+}
+
+#of-our {
+    font-weight: bold;
+}
+
+#features {
+    font-weight: bold;
+    color: #FF900E;
+}
+
+.feature-description {
+    font-size: 1rem;
+    margin-top: 24px;
+    margin-bottom: 30px;
 }
