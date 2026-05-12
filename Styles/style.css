@@ -129,6 +129,9 @@ main>section {
     .banner-title {
         padding-top: 100px;
     }
+    .banner {
+        width: 90%;
+    }
 }
 
 
@@ -193,4 +196,19 @@ main>section {
     font-size: 1rem;
     margin-top: 24px;
     margin-bottom: 30px;
+}
+
+
+/* Responsive Media Queary for Mobile device features section */
+
+@media screen and (max-width:576px) {
+    .team-features-container {
+        flex-direction: column;
+    }
+    .team-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .features-list {
+        width: 90%;
+    }
 }
