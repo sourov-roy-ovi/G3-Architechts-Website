@@ -393,3 +393,17 @@
         font-weight: 600;
         color: #727272;
     }
+    /* Responsive Media Queary for Mobile device some facts section */
+    
+    @media screen and (max-width:576px) {
+        .some-facts-container {
+            width: 90%;
+        }
+        .some-facts-title {
+            margin-top: 200px;
+        }
+        .some-facts-card-container {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 100px;
+        }
+    }
