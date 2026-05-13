@@ -407,3 +407,14 @@
             gap: 100px;
         }
     }
+    /* Responsive Media Query for tablet or medium device */
+    
+    @media screen and (min-width:576px) and (max-width:1000px) {
+        .some-facts-container {
+            width: 90%;
+        }
+        .some-facts-card-container {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 115px;
+        }
+    }
