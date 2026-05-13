@@ -227,3 +227,102 @@ main>section {
         width: 90%;
     }
 }
+
+
+/* Feature will enjoy section style */
+
+.feature-enjoy-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 160px;
+}
+
+.title-enjoy-feature {
+    font-size: 2.8rem;
+    font-weight: bold;
+    max-width: 468px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    line-height: 1.2;
+}
+
+.description-feature-enjoy {
+    max-width: 586px;
+    font-size: 1rem;
+    padding: 27px 0;
+}
+
+.feature-enjoy-card-container {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.enjoy-feature-card {
+    max-width: 586px;
+    background-color: #FFFFFF;
+    padding: 30px 42px 30px 30px;
+    box-shadow: 2px 10px 5px 0px #f5f4f4;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.enjoy-feature-card:hover {
+    transform: translate(-5px);
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.card-description {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.feature-enjoy-img {
+    justify-content: center;
+}
+
+.image-wrapper {
+    /* ইমেজ উপর কমলা কালারের experience badge বসানোর জন্য position: relative করা হলো  */
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.experience-badge {
+    width: 240px;
+    height: 110px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    padding: 44px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    bottom: -85px;
+    left: -92px;
+}
+
+.experience-badge h2 {
+    font-size: 65px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.experience-badge p {
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+}
