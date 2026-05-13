@@ -325,3 +325,19 @@
             font-size: 55px;
         }
     }
+    /* Responsive Media Query for tablet or medium device */
+    
+    @media screen and (min-width:576px) and (max-width:1000px) {
+        .feature-enjoy-container {
+            flex-direction: column;
+            width: 80%;
+        }
+        .experience-badge {
+            max-width: 220px;
+            left: -40px;
+            bottom: -100px;
+        }
+        .experience-badge h2 {
+            font-size: 60px;
+        }
+    }
