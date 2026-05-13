@@ -188,7 +188,7 @@
     
     @media screen and (max-width:576px) {
         .team-features-container {
-            flex-direction: column;
+            flex-direction: column-reverse;
         }
         .team-images {
             grid-template-columns: repeat(1, 1fr);
