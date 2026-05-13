@@ -487,3 +487,19 @@
             gap: 40px;
         }
     }
+    /* footer Section style */
+    
+    .footer-section {
+        max-width: 1444px;
+        margin: 0 auto
+    }
+    
+    .footer-container {
+        margin: 130px 0 216px 0;
+        max-width: 1440px;
+        padding: 39px 410px;
+    }
+    
+    .copyright-text {
+        font-size: 20px;
+    }
