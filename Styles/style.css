@@ -314,6 +314,7 @@
         .feature-enjoy-container {
             flex-direction: column;
             width: 90%;
+            gap: 100px;
         }
         .experience-badge {
             max-width: 200px;
