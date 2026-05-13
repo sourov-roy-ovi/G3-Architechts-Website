@@ -503,3 +503,13 @@
     .copyright-text {
         font-size: 20px;
     }
+    /* Responsive Media Queary for Mobile device Our Sponspors Section style */
+    
+    @media screen and (max-width:576px) {
+        .footer-section {
+            width: 90%;
+        }
+        .footer-container {
+            padding: 39px 100px;
+        }
+    }
