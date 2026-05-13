@@ -476,3 +476,14 @@
             gap: 90px;
         }
     }
+    /* Responsive Media Query for tablet or medium device */
+    
+    @media screen and (min-width:576px) and (max-width:990px) {
+        .our-sponspors {
+            width: 90%;
+        }
+        .spornspors-brand-container {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+        }
+    }
